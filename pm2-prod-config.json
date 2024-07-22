@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "developmentservice",
+            "script": "./build/index.js",
+            "autorestart": true
+        }
+    ]
+}
