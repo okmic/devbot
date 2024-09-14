@@ -9,7 +9,7 @@ sudo mysql_secure_installation
 
 sudo echo -e "[mysqld]
 max_connections=10000" > /etc/mysql/conf.d/max_connections.cnf 
-
+#/etc/mysql/mysql.conf.d/
 sudo systemctl restart mysql.service
 
 mysql -u root <<EOF

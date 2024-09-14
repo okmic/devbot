@@ -1,3 +1,3 @@
-CREATE USER 'adminautostories'@'%' IDENTIFIED BY '45fFSDFDhxMIYTHBX^HC7&GX%GCJ7FXziycy';
-GRANT ALL PRIVILEGES ON autostories.* TO 'adminautostories'@'%';
+CREATE USER 'username'@'%' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON dbname.* TO 'username'@'%';
 FLUSH PRIVILEGES;
