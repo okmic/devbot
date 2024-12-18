@@ -46,7 +46,7 @@ goaccess --version
 GoAccess может анализировать логи различных веб-серверов, таких как Apache и Nginx. Обычно логи находятся по следующим путям:
 
 - *Apache*: `/var/log/apache2/access.log`
-- *Nginx*: `/var/log/nginx/access.log`
+- *Nginx*: `/var/log/nginx/access.logX
 
 Убедитесь, что у вас есть доступ к этим логам.
 
